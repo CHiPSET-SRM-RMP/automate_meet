@@ -17,9 +17,21 @@
 <img src="https://tetranoodle.com/wp-content/uploads/2018/07/tick-gif.gif" width="20px"> Install <b>*schedule package*</b><br>
 + `pip install schedule`
 
-### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png" width="30px">  Linux/Bash user can Clone the Repo :
+## How to use it: 
+
+### <img src="https://freeiconshop.com/wp-content/uploads/edd/download-cloud-flat.png" width="30px"> <tab> &nbsp;Clone this repository :   
 ```
 git clone https://github.com/CHiPSET-SRM-RMP/automate_meet.git
 ```
+### <img src="https://icon-library.com/images/sign-in-with-google-icon/sign-in-with-google-icon-16.jpg" width="30px"> <tab> &nbsp; Make sure your account is signed-in to attend meet in the browser
+- run <b>*my_meet.py*</b> file
+- Enter the meeting url
+- Enter the joining time of the google meet
+- Enter total minutes you want to be in the meet
+- Type <b>Yes</b> if you want to print your details in comment box:
+	 - a. Enter your <b>*name*</b>
+	 - b. Enter your <b>*Reg. No.*</b>
+	 - c. Enter your <b>*Year and Section*</b>
+   - else Type <b>No</b>
 
- <br>
+ ### *Wait till the meet starts and Dont press any key while file is running as it will cause error.*
