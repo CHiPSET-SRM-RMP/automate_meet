@@ -6,13 +6,6 @@ import schedule
 # Global variables
 meet_url = str(input('Enter the meeting id/url :').strip())
 meet_join_time = str(input('Enter meet joining time in 24hour format: ').strip())
-command = input("Do you want to change browser path?(Yes/No): ").strip()
-if command.lower() == ("yes" or "ye" or "y"):
-    browser_path = input("Enter your browser path: ")  # Enter your browser path
-else:
-    print("Setting default browser path. ")
-    browser_path = ''
-
 meet_time = int(input('Enter total minutes you want to attend the meet: ').strip())
 comment_ask = input('Do you want to print your attendance info in comments(Yes/No) :').strip()
 
@@ -27,10 +20,7 @@ else:
 
 
 def meeting_join():
-    if browser_path is None:
-        webbrowser.get().open_new(meet_url)
-    else:
-        webbrowser.get(browser_path).open_new(meet_url)
+    webbrowser.open_new(meet_url)
     time.sleep(15)
     pag.hotkey('ctrl', 'd')
     pag.hotkey('ctrl', 'e')
